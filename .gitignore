@@ -1,0 +1,6 @@
+# Logs
+logs
+*.log
+
+#Password File
+comply.yml
