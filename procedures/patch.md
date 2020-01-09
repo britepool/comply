@@ -8,8 +8,8 @@ cron: "0 0 0 15 * *"
 Resolve this ticket by executing the following steps:
 
 - [ ] Pull the latest scripts from the Ops repository
-- [ ] Execute `ENV=staging patch-all.sh`
+- [ ] Execute scripts to deploy changes to `STAGING`
 - [ ] Inspect output
     - [ ] Errors? Investigate and resolve
-- [ ] Execute `ENV=production patch-all.sh`
+- [ ] Execute scripts to deploy changes to `PROD`
 - [ ] Attach log output to this ticket
