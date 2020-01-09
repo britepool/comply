@@ -11,7 +11,7 @@ Resolve this ticket by executing the following steps:
 
 
 ```
-To: Desktop support
+To: IT (it@britepool.com)
 Subject: Annual workstation inventory
 
 Please attach the current workstation inventory to the following ticket: [REPLACE WITH URL TO THIS TICKET]
@@ -25,7 +25,7 @@ The workstation inventory shall include the following fields:
 
 
 ```
-To: Outsourced Call Center IT
+To: IT Vendor
 Subject: Annual workstation inventory
 
 As part of our ongoing compliance efforts and per our services agreement, we require a current inventory of workstations in use in the service of our account.

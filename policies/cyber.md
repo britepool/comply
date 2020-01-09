@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC9.1
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 2 2020
     comment: Initial document
 ---
 
@@ -62,7 +62,7 @@ a. The process was conducted as follows:
     i. After controls were applied, residual risks were assessed.
 
 a. The following documents were used or generated during the implementation of risk assessment and risk treatment:
-    
+
     i. Risk Assessment Table (Appendix A): for each combination of systems , vulnerabilities and threats, this table shows the values for consequence and likelihood, and calculates the risk.
 
     i. Risk Treatment Table (Appendix B): defines the options for risk treatment, selection of controls for each unacceptable risk, and the level of residual risk.

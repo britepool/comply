@@ -4,3 +4,7 @@ logs
 
 #Password File
 comply.yml
+
+comply
+dist
+.envrc

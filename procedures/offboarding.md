@@ -5,6 +5,8 @@ name: "Offboard User"
 Resolve this ticket by executing the following steps:
 
 - [ ] Immediately suspend user in SSO
+- [ ] Look up automated-provisioned applications for this role or user
+- [ ] Validate access revocation in each
 - [ ] Append HR termination request e-mail to this ticket
 - [ ] Look up manually-provisioned applications for this role or user
 - [ ] Validate access revocation in each

@@ -10,7 +10,7 @@ satisfies:
     - CC3.2
     - CC3.3
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 2 2020
     comment: Initial document
 ---
 
@@ -22,7 +22,7 @@ The intent of this description is to establish both the legal jurisdiction and c
 
 # Entity Type
 
-{{.Name}} is a Delaware C-Corporation headquartered in San Francisco, California. {{.Name}} was established in 1970.
+{{.Name}} is a Delaware C-Corporation headquartered in Winter Park, Florida. {{.Name}} was established in 2019.
 
 # Integrity and Ethics
 
@@ -36,13 +36,10 @@ The Board of Directors appoints and oversees the Chief Executive Officer (CEO).
 
 # Organizational Structure
 
-{{.Name}} is composed of 7 primary divisions:
+{{.Name}} is composed of 4 primary divisions:
 
-  * Sales
-  * Marketing
-  * Manufacturing
-  * Research & Development
-  * Information Technology
+  * Sales & Marketing
+  * Engineering
   * Human Resources
   * Finance
 

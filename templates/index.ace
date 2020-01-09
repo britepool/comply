@@ -222,7 +222,7 @@ html lang=en
     footer.footer
       .container
         .content.has-text-centered
-          p {{.Project.OrganizationName}} Confidential 2018
+          p {{.Project.OrganizationName}} Confidential 2020
   = javascript
     if (window.location.hash=="") {
       show('overview')

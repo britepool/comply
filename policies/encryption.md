@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC9.9
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 2 2020
     comment: Initial document
 ---
 # Purpose and Scope
@@ -21,9 +21,9 @@ a. This policy defines the high level objectives and implementation instructions
 
 # Policy
 
-a. The organization must protect individual systems or information by means of cryptographic controls as defined in Table 3: 
+a. The organization must protect individual systems or information by means of cryptographic controls as defined in Table 3:
 
-\pagebreak 
+\pagebreak
 
 +---------------------+-------------------+----------------+--------------+
 | **Name of System/** | **Cryptographic** | **Encryption** | **Key Size** |
@@ -48,10 +48,10 @@ a. The organization must protect individual systems or information by means of c
 |                     |                   |                |              |
 +---------------------+-------------------+----------------+--------------+
 | Website SSL         |  OpenSSL, CERT    | AES-256        | 256-bit key  |
-| Certificate         |                   |                |              | 
+| Certificate         |                   |                |              |
 +---------------------+-------------------+----------------+--------------+
 
-Table 3: Cryptographic Controls 
+Table 3: Cryptographic Controls
 
 &nbsp;
 

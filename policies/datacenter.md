@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC6.4
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 2 2020
     comment: Initial document
 ---
 

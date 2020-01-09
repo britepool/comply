@@ -5,10 +5,10 @@ satisfies:
     - A1.2
     - A1.3
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 2 2020
     comment: Initial document
 ---
-#Purpose and Scope 
+#Purpose and Scope
 
 a. The purpose of this policy is to define the organization’s procedures to recover Information Technology (IT) infrastructure and IT services within set deadlines in the case of a disaster or other disruptive incident. The objective of this plan is to complete the recovery of IT infrastructure and IT services within a set Recovery Time Objective (RTO).
 
@@ -26,7 +26,7 @@ a. The following conditions must be met for this plan to be viable:
 
     i. If an incident takes place at the organization’s physical location, all resources involved in recovery efforts are able to be transferred to an alternate work site (such as their home office) to complete their duties.
 
-    i. The Information Security Officer is responsible for coordinating and conducting a bi-annual (at least) rehearsal of this continuity plan. 
+    i. The Information Security Officer is responsible for coordinating and conducting a bi-annual (at least) rehearsal of this continuity plan.
 
 a. This plan does not cover the following types of incidents:
 
@@ -45,7 +45,7 @@ a. *Relocation*
 a. *Critical Services, Key Tasks and, Service Level Agreements (SLAs)*
 
     i. The following services and technologies are considered to be critical for business operations, and must immediately be restored (in priority order):
-  
+
         1. [list the critical services and technologies that must remain running during a disaster]
 
     i. The following key tasks and SLAs must be considered during a disaster recovery event, in accordance with the organization’s objectives, agreements, and legal, contractual or regulatory obligations:
@@ -79,22 +79,22 @@ a. A list of relevant points of contact both internal and external to the organi
 a. During a crisis, it is vital for certain recovery tasks to be performed right away. The following actions are pre-authorized in the event of a disaster recovery event:
 
     i. [job title] must take all steps specified in this disaster recovery plan in order to recover the organization’s information technology infrastructure and services.
-    
+
     i. [job title] is authorized to make urgent purchases of equipment and services up to [amount].
-    
+
     i. [job title] is authorized to communicate with clients.
-    
+
     i. [job title] is authorized to communicate with the public.
-    
+
     i. [job title] is authorized to communicate with public authorities such as state and local governments and law enforcement.
-    
+
     i. [job title] is authorized to cooperate with [name of supplier/outsourcing partner].
-    
+
     i. [add/modify/remove authorizations in this section as necessary]
 
 a. Specific recovery steps for information systems infrastructure and services are provided in Appendix B.
 
-\pagebreak 
+\pagebreak
 
 # Appendix A: Relevant Points of Contact
 
@@ -131,21 +131,21 @@ Specific recovery procedures are described in detail below:
 +----------------------------+----------------------+------------------------------------+
 |     Recovery Procedure     |  Person Responsible  |  Person(s) Notified When Complete  |
 +============================+======================+====================================+
-| System to be recovered:    |                      |                                    |                
-|                            |                      |                                    |                 
-+----------------------------+----------------------+------------------------------------+
-| task 1:                    |                      |                                    |  
+| System to be recovered:    |                      |                                    |
 |                            |                      |                                    |
-+----------------------------+----------------------+------------------------------------+            
-| task 2:                    |                      |                                    |   
-|                            |                      |                                    |              
 +----------------------------+----------------------+------------------------------------+
-| System to be recovered:    |                      |                                    |                
-|                            |                      |                                    |                 
+| task 1:                    |                      |                                    |
+|                            |                      |                                    |
 +----------------------------+----------------------+------------------------------------+
-| task 1:                    |                      |                                    | 
-|                            |                      |                                    |    
-+----------------------------+----------------------+------------------------------------+            
-| task 2:                    |                      |                                    |    
-|                            |                      |                                    |             
+| task 2:                    |                      |                                    |
+|                            |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+|                            |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+|                            |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+|                            |                      |                                    |
 +----------------------------+----------------------+------------------------------------+

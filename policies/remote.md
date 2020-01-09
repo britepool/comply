@@ -6,7 +6,7 @@ satisfies:
     - CC6.2
     - CC6.7
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 2 2020
     comment: Initial document
 ---
 
@@ -42,7 +42,7 @@ a. *Security Requirements for Remote Hosts and Mobile Computing Equipment*
 
     i. Persons using mobile computing equipment off-premises are responsible for regular backups of organizational data that resides on the the device.
 
-    i. Access to the organization’s systems must be done through an encrypted and authenticated VPN connection with multi-factor authentication enabled. All users requiring remote access must be provisioned with VPN credentials from the organization’s information technology team. VPN keys must be rotated at least twice per year. Revocation of VPN keys must be included in the Offboarding Policy. 
+    i. Access to the organization’s systems must be done through an encrypted and authenticated VPN connection with multi-factor authentication enabled. All users requiring remote access must be provisioned with VPN credentials from the organization’s information technology team. VPN keys must be rotated at least twice per year. Revocation of VPN keys must be included in the Offboarding Policy.
 
     i. Information stored on mobile computing equipment must be encrypted using hard drive full disk encryption.
 

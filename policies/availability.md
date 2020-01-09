@@ -5,7 +5,7 @@ satisfies:
     - A1.1
     - CC9.1
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 2 2020
     comment: Initial document
 ---
 
@@ -63,7 +63,7 @@ a. Information systems  must have an appropriate redundancy and failover plan th
 
 a. Information systems must have an appropriate business continuity plan that meets the following criteria:
 
-    i. Recovery time and data loss limits are defined in Table 3. 
+    i. Recovery time and data loss limits are defined in Table 3.
 
     i. Recovery time requirements and data loss limits must be adhered to with specific documentation in the plan.
 
@@ -97,4 +97,4 @@ a. Information systems must have an appropriate business continuity plan that me
 |                   |                  |               |                   | restoration      |
 +-------------------+------------------+---------------+-------------------+------------------+
 
-Table 3: Recovery Time and Data Loss Limits 
+Table 3: Recovery Time and Data Loss Limits

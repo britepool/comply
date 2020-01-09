@@ -11,7 +11,7 @@ satisfies:
     - CC5.2
     - CC5.3
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 2 2020
     comment: Initial document
 ---
 
@@ -87,7 +87,7 @@ TODO: Finalize these lists
 
 - Slack
 - Email
-- Github ticketing
+- JIRA ticketing
 
 ## External
 

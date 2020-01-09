@@ -7,7 +7,7 @@ satisfies:
     - CC7.1
     - CC7.2
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 2 2020
     comment: Initial document
 ---
 
@@ -65,7 +65,7 @@ Access to {{.Name}} infrastructure, both internal and product, is reviewed quart
 
 # {{.Name}} Physical Security
 
-{{.Name}} has one physical location, in San Francisco, CA. Key issuance is tracked by the Office Physical Security Policy Ledger. Office keys are additionally held by the lessor, property management, and custodial staff. These keys are not tracked by the Office Physical Security Policy Ledger. {{.Name}} managers regularly review physical access privileges.
+{{.Name}} has one physical location, in Winter Park, FL. Key issuance is tracked by the Office Physical Security Policy Ledger. Office keys are additionally held by the lessor, property management, and custodial staff. These keys are not tracked by the Office Physical Security Policy Ledger. {{.Name}} managers regularly review physical access privileges.
 
 {{.Name}} infrastructure is located within AWS. {{.Name}} does not have physical access to AWS infrastructure.
 
