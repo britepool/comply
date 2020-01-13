@@ -27,7 +27,7 @@ Describe product infrastructure, emphasizing security measures
 
 ### Authorized Personnel
 
-- **AWS root account** access is granted only to the CTO and CEO
+- **AWS root account** access is granted only to the VP of Engineering & Security Advisor
 - **AWS IAM** access is granted to to a limited group of **Operators**
 - **{{.Name}} SSH** access is granted to a limited group of **Operators**
 - **{{.Name}} DB** access is granted to a limited group of **Data Operators**
@@ -36,7 +36,7 @@ Describe product infrastructure, emphasizing security measures
 
 {{.Name}} uses the following cloud services for its internal infrastructure:
 
-- List cloud services
+- Amazon Web Services
 
 Access to these cloud services is limited according to the role of the {{.Name}} employee and is reviewed quarterly as well as via regular onboarding/offboarding tasks for new and departing employees.
 
