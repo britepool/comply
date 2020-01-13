@@ -21,7 +21,7 @@ a. This policy defines the high level objectives and implementation instructions
 
 # Policy
 
-a. The organization must protect individual systems or information by means of cryptographic controls as defined in Table 3:
+a. The organization must protect individual systems or information by means of minimal cryptographic controls as defined in Table 3:
 
 \pagebreak
 
@@ -55,11 +55,11 @@ Table 3: Cryptographic Controls
 
 &nbsp;
 
-b. Except where otherwise stated, keys must be managed by their owners.
+a. Except where otherwise stated, keys must be managed by their owners.
 
-c. Cryptographic keys must be protected against loss, change or destruction by applying appropriate access control mechanisms to prevent unauthorized use and backing up keys on a regular basis.
+a. Cryptographic keys must be protected against loss, change or destruction by applying appropriate access control mechanisms to prevent unauthorized use and backing up keys on a regular basis.
 
-d. When required, customers of the organization’s cloud-based software or platform offering must be able to obtain information regarding:
+a. When required, customers of the organization’s cloud-based software or platform offering must be able to obtain information regarding:
 
     i. The cryptographic tools used to protect their information.
 
@@ -69,7 +69,7 @@ d. When required, customers of the organization’s cloud-based software or plat
 
 a. The use of organizationally-approved encryption must be governed in accordance with the laws of the country, region, or other regulating entity in which users perform their work. Encryption must not be used to violate any laws or regulations including import/export restrictions. The encryption used by the Company conforms to international standards and U.S. import/export requirements, and thus can be used across international boundaries for business purposes.
 
-a. All key management must be performed using software that automatically manages access control, secure storage, backup and rotation of keys. Specifically:
+a. All key management must be performed using software that automatically manages access control, secure storage, backup and rotation of keys. Key management should adhere to the "Recommendation for Key Management - Best Practices for Key Management Organizations" NIST SP 800-57 Part 2 or the lastest superseding standard.  Some important points from the policy:
 
   i. The key management service must provide key access to specifically-designated users, with the ability to encrypt/decrypt information and generate data encryption keys.
 
@@ -79,4 +79,18 @@ a. All key management must be performed using software that automatically manage
 
   i. The key management service must rotate keys at least once every 12 months.
 
+  i. Refer to the latest version of the standard
 
+a. All non public data should be transmitted through the use of an appropriately configured Transport Layer Security (TLS) implementation as defined in the "Guidelines for the Selection, Configuration, and Use of Transport Layer Security (TLS) Implementations" NIST SP 800-52 or the lastest superseding standard.
+
+a. Ciphers that are proven, standard, highly tested, and free of patent encumbrances must be used as the basis for encrypting devices and communications. They must meet the requirements delineated in the National Institute of Standards and Technology (NIST) publication FIPS 140-2.  Currently AES is highly recommended at this time, but refer to the latest version of the standard to verify.  The use of proprietary ciphers is not allowed for any purpose.
+
+a. Hash functions should meet or exceed the requirements set forth in "Guidance for Cryptographic Algorithm and Key-Size Selection" in NIST SP 800-57 Part 1.  SHA-3 should be preferred, but SHA-2 is also acceptable, but refer to the latest standard. Key lengths should meet or exceed those deemed "Acceptable" in "Transitioning the Use of Cryptographic Algorithms and Key Lengths" NIST SP 800-131A or the latest superseding standard.
+
+a. Key Agreement and Authentication
+
+  i. Key exchange must use one of the following protocols: Diffie-Hellman (including ECDH), or Internet Key Exchange (IKE), version 2.
+
+  i. Public keys used to establish trust must be verified (either manually or through a cryptographically signed message) prior to use.
+
+  i. Any server used for authentication must have a valid certificate signed by a trusted provider. All applications or servers using SSL or TLS must have a valid certificate signed by a trusted provider. Use of ephemeral keys is not adequate for this purpose.
