@@ -5,7 +5,7 @@ cron: "0 0 0 15 4 *"
 
 Resolve this ticket by executing the following steps:
 
-- [ ] Send the communications below
+- [ ] Send the communication(s) below
 - [ ] For any email replies, attach content to this ticket
 - [ ] Validate responses are received from each
 
