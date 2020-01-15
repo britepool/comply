@@ -38,15 +38,20 @@ a. This plan does not cover the following types of incidents:
 
 a. *Relocation*
 
-    i. If the organization’s primary work site is unavailable, an alternate work site shall be used by designated personnel. The organization’s alternate work site is located at [list the address of the alternate work site that the organization will use].
+    i. If the organization’s primary work site is unavailable, an alternate work site shall be used by designated personnel. The organization’s alternate work site can be anywhere that is safe with power and internet.
 
-    i. The personnel required to report to the alternate work site during a disaster includes [list the personnel titles responsible for reporting to the alternate work site].
+    i. The personnel must remain in physical control of their laptop or workstation and work is only to be done on company issued hardware and company secured networks.
+
+    i. The personnel required to report to the alternate work site during a disaster includes at least 2 technical staff members from each team.
 
 a. *Critical Services, Key Tasks and, Service Level Agreements (SLAs)*
 
     i. The following services and technologies are considered to be critical for business operations, and must immediately be restored (in priority order):
 
-        1. [list the critical services and technologies that must remain running during a disaster]
+        1. Identity Resolution Services
+        1. Co-branded Sites and Services
+        1. User Portal
+        1. Essential Internal Systems
 
     i. The following key tasks and SLAs must be considered during a disaster recovery event, in accordance with the organization’s objectives, agreements, and legal, contractual or regulatory obligations:
 
@@ -58,19 +63,23 @@ a. *Notification of Plan Initiation*
 
     i. The following personnel must be notified when this plan is initiated:
 
-      1. [list all personnel (including titles) that must be notified of plan initiation ]
+      1. Director of each Engineering team
+      1. Head of Engineering, who will inturn notify all C-Level executives
+      1. Head of HR
 
-    i. [person responsible for notifications, including title] is responsible for notifying the personnel listed above.
+    i. The current Direcor or Manager of the on call team is responsible for notifying the personnel listed above.
 
 a. *Plan Deactivation*
 
-    i. This plan must only be deactivated by [person or persons with authority to deactivate the plan, including job title].
+    i. This plan must only be deactivated by Head of Engineering.
 
-    i. In order for this plan to be deactivated, all relocation activities and critical service / technology tasks  as detailed above must be fully completed and/or restored. If the organization is still operating in an impaired scenario, the plan may still be kept active at the discretion of [person or persons with authority to deactivate the plan, including job title].
+    i. In order for this plan to be deactivated, all relocation activities and critical service / technology tasks as detailed above must be fully completed and/or restored. If the organization is still operating in an impaired scenario, the plan may still be kept active at the discretion of [person or persons with authority to deactivate the plan, including job title].
 
     i. The following personnel must be notified when this plan is deactivated:
 
-        1. [list all personnel (including titles) that must be notified of plan activation]
+      1. Director of each Engineering team
+      1. Head of Engineering, who will inturn notify all C-Level executives
+      1. Head of HR
 
 a. The organization must endeavor to restore its normal level of business operations as soon as possible.
 
@@ -78,19 +87,17 @@ a. A list of relevant points of contact both internal and external to the organi
 
 a. During a crisis, it is vital for certain recovery tasks to be performed right away. The following actions are pre-authorized in the event of a disaster recovery event:
 
-    i. [job title] must take all steps specified in this disaster recovery plan in order to recover the organization’s information technology infrastructure and services.
+    i. Head of Engineering, Director of the team that is on call, or designee must take all steps specified in this disaster recovery plan in order to recover the organization’s information technology infrastructure and services.
 
-    i. [job title] is authorized to make urgent purchases of equipment and services up to [amount].
+    i. Head of Engineering is authorized to make urgent purchases of equipment and services up to $1000.
 
-    i. [job title] is authorized to communicate with clients.
+    i. Head of Engineering or designee is authorized to communicate with clients.
 
-    i. [job title] is authorized to communicate with the public.
+    i. Head of Engineering or designee is authorized to communicate with the public.
 
-    i. [job title] is authorized to communicate with public authorities such as state and local governments and law enforcement.
+    i. Head of Engineering or designee is authorized to communicate with public authorities such as state and local governments and law enforcement.
 
-    i. [job title] is authorized to cooperate with [name of supplier/outsourcing partner].
-
-    i. [add/modify/remove authorizations in this section as necessary]
+    i. Head of Engineering or designee is authorized to cooperate with service providers (Cloud, Network, Utilities, DNS, etc) that are critical to operations.
 
 a. Specific recovery steps for information systems infrastructure and services are provided in Appendix B.
 
@@ -100,27 +107,27 @@ a. Specific recovery steps for information systems infrastructure and services a
 
 Internal Contacts
 
-+------------------+-------------------+------------------+------------------+-----------------+
-|       Name       |     Job Title     |   Phone Number   |  Email Address   |Alternate Contact|
-+==================+===================+==================+==================+=================+
-|                  |                   |                  |                  |                 |
-|                  |                   |                  |                  |                 |
-+------------------+-------------------+------------------+------------------+-----------------+
-|                  |                   |                  |                  |                 |
-|                  |                   |                  |                  |                 |
-+------------------+-------------------+------------------+------------------+-----------------+
++------------------+---------------------+------------------+----------------------+------------------+
+|       Name       |     Job Title       |   Phone Number   |  Email Address       |Alternate Contact |
++==================+=====================+==================+======================+==================+
+|  Asher De Vuyst  | Head of Engineering |                  | asher@britepool.com  | it@britepool.com |
+|                  |                     |                  |                      |                  |
++------------------+---------------------+------------------+----------------------+------------------+
+|  Nathan Thomas   | Technical Advisor   |                  | nathan@britepool.com |                  |
+|                  |                     |                  |                      |                  |
++------------------+---------------------+------------------+----------------------+------------------+
 
 External Contacts
 
-+------------------+-------------------+------------------+------------------+-----------------+
-|       Name       |     Job Title     |   Phone Number   |  Email Address   |Alternate Contact|
-+==================+===================+==================+==================+=================+
-|                  |                   |                  |                  |                 |
-|                  |                   |                  |                  |                 |
-+------------------+-------------------+------------------+------------------+-----------------+
-|                  |                   |                  |                  |                 |
-|                  |                   |                  |                  |                 |
-+------------------+-------------------+------------------+------------------+-----------------+
++------------------+-------------------+------------------+---------------------+-----------------+
+|       Name       |     Job Title     |   Phone Number   |  Email Address      |Alternate Contact|
++==================+===================+==================+=====================+=================+
+|  Nate Johnson    | IT Engineer       |                  | njohnson@sonobi.com |                 |
+|                  |                   |                  |                     |                 |
++------------------+-------------------+------------------+---------------------+-----------------+
+|                  |                   |                  |                     |                 |
+|                  |                   |                  |                     |                 |
++------------------+-------------------+------------------+---------------------+-----------------+
 
 \pagebreak
 
@@ -128,24 +135,264 @@ External Contacts
 
 Specific recovery procedures are described in detail below:
 
+TIER 1: Production Infrastructure & Communications
+
 +----------------------------+----------------------+------------------------------------+
 |     Recovery Procedure     |  Person Responsible  |  Person(s) Notified When Complete  |
 +============================+======================+====================================+
 | System to be recovered:    |                      |                                    |
-|                            |                      |                                    |
+| DNS                        |                      |                                    |
 +----------------------------+----------------------+------------------------------------+
 | task 1:                    |                      |                                    |
-|                            |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
 +----------------------------+----------------------+------------------------------------+
 | task 2:                    |                      |                                    |
-|                            |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
 +----------------------------+----------------------+------------------------------------+
 | System to be recovered:    |                      |                                    |
-|                            |                      |                                    |
+| CDN                        |                      |                                    |
 +----------------------------+----------------------+------------------------------------+
 | task 1:                    |                      |                                    |
-|                            |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
 +----------------------------+----------------------+------------------------------------+
 | task 2:                    |                      |                                    |
-|                            |                      |                                    |
+| Communicate Internally     |                      |                                    |
 +----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| Cloud Console/CLI Access   |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| VPN                        |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| Instance/Container Hosting |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| Longterm Storage           |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| Data Pipeline/Logging      |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| Monitoring & Alerts        |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| Email                      |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| Realtime Team Chat         |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| Hosted Services            |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+
+TIER 2: Production Infrastructure, Nonessential
+
++----------------------------+----------------------+------------------------------------+
+|     Recovery Procedure     |  Person Responsible  |  Person(s) Notified When Complete  |
++============================+======================+====================================+
+| System to be recovered:    |                      |                                    |
+| Scheduled Reporting        |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| Bulk Data Processing       |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+
+TIER 3: Development and Productivity
+
++----------------------------+----------------------+------------------------------------+
+|     Recovery Procedure     |  Person Responsible  |  Person(s) Notified When Complete  |
++============================+======================+====================================+
+| System to be recovered:    |                      |                                    |
+| Adhoc Reporting & Analytics|                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| System to be recovered:    |                      |                                    |
+| Hosted Services for Devs   |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 1:                    |                      |                                    |
+| Assess Availability/Impact |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 2:                    |                      |                                    |
+| Communicate Internally     |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 3:                    |                      |                                    |
+| Contact Provider, Escalate |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+| task 4:                    |                      |                                    |
+| Communicate & Monitor      |                      |                                    |
+| Until Resolved             |                      |                                    |
++----------------------------+----------------------+------------------------------------+
+
+
+After an issue has been resolved, facts and findings are to be gathered and a post mortem is held.
+Opportunities for improvement will be documented and adjustments will be made as needed.

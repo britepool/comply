@@ -22,6 +22,8 @@ Assets are built using [`comply`](https://comply.strongdm.com), which can be ins
 
 The `output/` directory contains all generated assets. Links in the HTML dashboard a relative, and all dependencies are included via direct CDN references. The entire `output/` directory therefore may be uploaded to an S3 bucket or other static asset host without further modification.
 
+Right now we are uploading the contents of the output/ directory to the toplevel folder of another github repository for easy and free hosting:
+
 # Dashboard Status
 
 Procedure tracking is updated whenever `comply sync` is invoked. Invoke a sync prior to `comply build` to include the most current ticket status.
