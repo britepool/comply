@@ -62,11 +62,15 @@ a. *Managing Information Security*
 
     i. The organization’s main objectives for information security include the following:
 
-        1. [list the reasons/objectives for maintaining information security at the organization. Examples include a better market image, reduced risk of data breaches and compromises, and compliance with legal, regulatory, and contractual requirements.]
+        a. Protect the privacy and security of users, partners and employees.
+        a. Compliance with legal, regulatory, and contractual requirements.
+        a. Protect and maintain systems and assets.
+        a. Reduced risk of data breaches and compromises.
+        a. Build and maintain trust with a superior market image and reputation.
 
     i. The organization’s objectives for information security are in line with the organization’s business objectives, strategy, and plans.
 
-    i. Objectives for individual security controls or groups of controls are proposed by the company management team, including but not limited to [list key roles inside the organization that will participate in information security matters], and others as appointed by the CEO; these security controls are approved by the CEO in accordance with the Risk Assessment Policy (Reference (a)).
+    i. Objectives for individual security controls or groups of controls are proposed by the company management team, including but not limited to Head of Engineering, Director of IT, and Directors of every engineering team, and others as appointed by the CEO; these security controls are approved by the CEO in accordance with the Risk Assessment Policy (Reference (a)).
 
     i. All objectives must be reviewed at least once per year.
 
