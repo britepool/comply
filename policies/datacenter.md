@@ -24,7 +24,7 @@ a. This policy defines the policies and rules governing data centers and secure 
 
 a. The following locations are classified by the organization as secure areas and are governed by this policy:
 
-    i. [list all data center locations and secure areas under the organization’s control]
+    i. At this time all data centers are hosted by cloud provider(s) (Amazon) with strict data center and secure area access policies.  The company currently maintains no physical data centers under its control.
 
 a. Each data center and secure area must have a manager assigned. The manager’s name must be documented in the organization’s records. In the case of any on-prem data centers, the manager’s name must also be posted in and near the secure area.
 
