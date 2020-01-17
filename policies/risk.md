@@ -38,7 +38,7 @@ a. *Risk Assessment*
 
     i. Once risk owners are identified, they must assess:
 
-        1. Consequences for each combination of threats and vulnerabilities for an individual asset if such a risk materializes.
+        1. Impact for each combination of threats and vulnerabilities for an individual asset if such a risk materializes.
 
         1. Likelihood of occurrence of such a risk (i.e. the probability that a threat will exploit the vulnerability of the respective asset).
 

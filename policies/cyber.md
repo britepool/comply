@@ -36,9 +36,9 @@ a. The purpose of the risk treatment was to define the systematic means of reduc
 
 a. All risk assessment and treatment activities were completed within the scope of the organization’s information security program.
 
-a. The risk assessment was implemented in the period from 2020-01-02 to 2020-01-10. The risk treatment was implemented from 2020-01-10 to 2020-01-15. Final reports were prepared at/on 2020-01-15 through 2020-01-17.
+a. The risk assessment was implemented in the period from 2020-MM-DD to 2020-MM-DD. The risk treatment was implemented from 2020-MM-DD to 2020-MM-DD. Final reports were prepared at/on 2020-MM-DD through 2020-MM-DD. TODO: Complete the Risk Assessment
 
-a. The risk assessment and risk treatment process was managed by the Head of Engineering (Asher De Vuyst) with assistance provided by Technical Advisor (Nathan Thomas).
+a. The risk assessment and risk treatment process was managed by the Head of Engineering with assistance provided by a Technical Advisor.
 
 a. During the risk assessment, information was collected through questionnaires and interviews with responsible persons, namely the asset owners across organizational units.
 
@@ -49,13 +49,13 @@ a. The process was conducted as follows:
     i. Threats were identified for each asset, and corresponding vulnerabilities were identified for each threat.
     i. Risk owners were identified for each risk.
 
-    i. Consequences of the loss of confidentiality, integrity and availability were evaluated using a score from 0 to 2, with 0 being the lowest rating and 2 being the highest rating.
+    i. Impacts of the loss of confidentiality, integrity and availability were evaluated using a rating from `Low` to `Very High`, with `Low` being the lowest rating and `Very High` being the highest rating.
 
-    i. The likelihood of risk occurrence (i.e. that the threat will exploit the vulnerability) was evaluated using a score from 0 to 2, with 0 being the lowest rating and 2 being the highest rating.
+    i. The likelihood of risk occurrence (i.e. that the threat will exploit the vulnerability) was evaluated using a rating from `Low` to `Very High`, with '`Low' being the lowest rating and `Very High` being the highest rating.
 
-    i. The level of risk was calculated by adding up the consequence and likelihood.
+    i. The level of risk was calculated by combining the consequence and likelihood as shown in the Risk Assessment Policy Tables.
 
-    i. Risks with a score of 3 or 4 were determined to be unacceptable risks.
+    i. Risks with a score of `High` or `Very High` were determined to be unacceptable risks.
 
     i. For each unacceptable risk, a risk treatment option was considered, and appropriate information security controls were selected.
 
@@ -63,7 +63,7 @@ a. The process was conducted as follows:
 
 a. The following documents were used or generated during the implementation of risk assessment and risk treatment:
 
-    i. Risk Assessment Table (Appendix A): for each combination of systems , vulnerabilities and threats, this table shows the values for consequence and likelihood, and calculates the risk.
+    i. Risk Assessment Table (Appendix A): for each combination of systems , vulnerabilities and threats, this table shows the values for impact and likelihood, and calculates the risk.
 
     i. Risk Treatment Table (Appendix B): defines the options for risk treatment, selection of controls for each unacceptable risk, and the level of residual risk.
 
@@ -75,7 +75,7 @@ a. The following documents were used or generated during the implementation of r
 |**Vulnerability ** | **Threat**       |  **Impact**               |  **Likelihood**           |  **Risk**  |
 |                   |                  |                           |                           |            |
 +===================+==================+===========================+===========================++===========+
-| Data center or    | Hurricane        | 1 - Moderate              |                           |            |
+| Data center or    | Hurricane        | Moderate                  |                           |            |
 | service provider  |                  |                           |                           |            |
 | impacted          |                  |                           |                           |            |
 |                   |                  |                           |                           |            |
