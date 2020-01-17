@@ -42,72 +42,198 @@ a. *Risk Assessment*
 
         1. Likelihood of occurrence of such a risk (i.e. the probability that a threat will exploit the vulnerability of the respective asset).
 
-        1. Criteria for determining consequence and likelihood are defined in Tables 3 and 4.
+        1. Criteria for determining impact and likelihood are defined in Tables below.
 
-    i. The risk level is calculated by adding the consequence score and the likelihood score.
+    i. The risk level is calculated by X the impact score and the likelihood score. TODO: REPLACE X with something.
 
-+-----------------+-----------------+--------------------------------------------------------------+
-| **Consequence** | **Consequence** | **Description**                                              |
-| **Level**       | **Score**       |                                                              |
-+=================+=================+==============================================================+
-| Low             | 0               | Loss of confidentiality, integrity, or availability will not |
-|                 |                 | affect the organization's cash flow, legal, or contractual   |
-|                 |                 | obligations, or reputation.                                  |
-+-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |
-+-----------------+-----------------+--------------------------------------------------------------+
-| Moderate        | 1               | Loss of confidentiality, integrity, or availability may incur|
-|                 |                 | financial cost and has low or moderate impact on the         |
-|                 |                 | organization's legal or contractual obligations and/or       |
-|                 |                 | reputation.                                                  |
-+-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |
-+-----------------+-----------------+--------------------------------------------------------------+
-| High            | 2               | Loss of confidentiality, integrity, or availability will have|
-|                 |                 | immediate and or/considerable impact on the organization's   |
-|                 |                 | cash flow, operations, legal and contractual obligations,and/|
-|                 |                 | or reputation.                                               |
-+-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |
-+-----------------+-----------------+--------------------------------------------------------------+
+The following tables from the NIST SP 800-30 were used to assign values to likelihood, impact, and risk:
 
-Table 3: Description of Consequence Levels and Criteria
 
-+-----------------+-----------------+--------------------------------------------------------------+
-| **Likelihood**  | **Likelihood**  | **Description**                                              |
-| **Level**       | **Score**       |                                                              |
-+=================+=================+==============================================================+
-| Low             | 0               | Either existing security controls are strong and have so far |
-|                 |                 | provided an adequate level of protection, or the probability |
-|                 |                 | of the risk being realized is extremely low. No new incidents|
-|                 |                 | are expected in the future.                                  |
-+-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |
-+-----------------+-----------------+--------------------------------------------------------------+
-| Moderate        | 1               | Either existing security controls have most provided an      |
-|                 |                 | adequate level of protection or the probability of the risk  |
-|                 |                 | being realized is moderate. Some minor incidents may have    |
-|                 |                 | occurred. New incidents are possible, but not highly likely.  |
-+-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |
-+-----------------+-----------------+--------------------------------------------------------------+
-| High            | 2               | Either existing security controls are not in place or        |
-|                 |                 | ineffective; there is a high probability of the risk being   |
-|                 |                 | realized. Incidents have a high likelihood of occurring in the|
-|                 |                 | future.                                             |
-+-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |
-+-----------------+-----------------+--------------------------------------------------------------+
+Table 1: Assessment Scale – Likelihood of Threat Event Initiation (Adversarial)
++-----------------+------------------------+--------------------------------------------------------------+
+| **Qualitiative**| **Semi-Quantitiative** | **Description**                                              |
+| **Values**      | **Values**             |                                                              |
++=================+========================+==============================================================+
+| Very High	      | 96-100      |  	10     | Adversary is almost certain to initiate the threat event.    |
++-----------------+------------------------+--------------------------------------------------------------+
+| High	          | 80-95	      |    8	   | Adversary is highly likely to initiate the threat event.     |
++-----------------+------------------------+--------------------------------------------------------------+
+| Moderate	      | 21-79	      |    5	   | Adversary is somewhat likely to initiate the threat event.   |
++-----------------+------------------------+--------------------------------------------------------------+
+| Low	            | 5-20        |	   2	   | Adversary is unlikely to initiate the threat event.          |
++-----------------+------------------------+--------------------------------------------------------------+
+| Very Low	      | 0-4	        |    0	   | Adversary is highly unlikely to initiate the threat event    |
++-----------------+------------------------+--------------------------------------------------------------+
 
-Table 4: Description of Likelihood Levels and Criteria
+
+Table 2: Assessment Scale – Likelihood of Threat Event Occurrence (Non-adversarial)
++-----------------+------------------------+--------------------------------------------------------------+
+| **Qualitiative**| **Semi-Quantitiative** | **Description**                                              |
+| **Values**      | **Values**             |                                                              |
++=================+========================+==============================================================+
+| Very High	      | 96-100      |  	10     | Error, accident, or act of nature is almost certain to occur;|
+|                 |             |          | or occurs more than 100 times per year.                      |
++-----------------+------------------------+--------------------------------------------------------------+
+| High	          | 80-95	      |    8	   | Error, accident, or act of nature is highly likely to occur; |
+|                 |             |          | or occurs more than 10-100 times per year.                   |
++-----------------+------------------------+--------------------------------------------------------------+
+| Moderate	      | 21-79	      |    5	   | Error, accident, or act of nature is somewhat likely to      |
+|                 |             |          | occur; or occurs more than 1-10 times per year.              |
++-----------------+------------------------+--------------------------------------------------------------+
+| Low	            | 5-20        |	   2	   | Error, accident, or act of nature is unlikely to occur; or   |
+|                 |             |          | occurs less than once a year but more than once every 10 yrs.|
++-----------------+------------------------+--------------------------------------------------------------+
+| Very Low	      | 0-4	        |    0	   | Error, accident, or act of nature is highly unlikely to      |
+|                 |             |          | occur; or occurs less than once every 10 yrs.                |
++-----------------+------------------------+--------------------------------------------------------------+
+
+Table 3: Likelihood of Threat Event Resulting in Adverse Impacts
++-----------------+------------------------+--------------------------------------------------------------+
+| **Qualitiative**| **Semi-Quantitiative** | **Description**                                              |
+| **Values**      | **Values**             |                                                              |
++=================+========================+==============================================================+
+| Very High	      | 96-100      |  	10     | If the threat event is initiated or occurs, it is almost     |
+|                 |             |          | certain to have adverse impacts.                             |
++-----------------+------------------------+--------------------------------------------------------------+
+| High	          | 80-95	      |    8	   | If the threat event is initiated or occurs, it is highly     |
+|                 |             |          | likely to have adverse impacts.                              |
++-----------------+------------------------+--------------------------------------------------------------+
+| Moderate	      | 21-79	      |    5	   | If the threat event is initiated or occurs, it is somewhat   |
+|                 |             |          | likely to have adverse impacts                               |
++-----------------+------------------------+--------------------------------------------------------------+
+| Low	            | 5-20        |	   2	   | If the threat event is initiated or occurs, it is unlikely to|
+|                 |             |          | have adverse impacts.                                        |
++-----------------+------------------------+--------------------------------------------------------------+
+| Very Low	      | 0-4	        |    0	   | If the threat event is initiated or occurs, it is highly     |
+|                 |             |          | unlikely to have adverse impacts.                            |
++-----------------+------------------------+--------------------------------------------------------------+
+
+
+Table 4: Assessment Scale – Overall Likelihood
++-------------------+---------------------------------------------------------------------+
+| **Likelihood of** | **Likelihood Threat Events Result in Adverse Impacts**              |
+| **Threat Event**  |                                                                     |
+| **Initiation or** |---------------------------------------------------------------------|
+| **Occurrence**    | Very Low    | Very Low    | Moderate    | High        | Very High   |
++===================+=============+=============+=============+=============+=============+
+| Very High	        | Low         | Moderate    | High        | Very High   | Very High   |
++-------------------+-------------+-------------+-------------+-------------+-------------+
+| High    	        | Low         | Moderate    | Moderate    | High        | Very High   |
++-------------------+-------------+-------------+-------------+-------------+-------------+
+| Moderate          | Low         | Low         | Moderate    | Moderate    | High        |
++-------------------+-------------+-------------+-------------+-------------+-------------+
+| Low               | Very Low    | Low         | Low         | Moderate    | Moderate    |
++-------------------+-------------+-------------+-------------+-------------+-------------+
+| Very Low          | Very Low    | Very Low    | Low         | Low         | Low         |
++-------------------+-------------+-------------+-------------+-------------+-------------+
+
+
+Table 5: Assessment Scale – Impact of Threat Events
++-----------------+------------------------+--------------------------------------------------------------+
+| **Qualitiative**| **Semi-Quantitiative** | **Description**                                              |
+| **Values**      | **Values**             |                                                              |
++=================+========================+==============================================================+
+| Very High	      | 96-100      |  	10     | The threat event could be expected to have multiple severe   |
+|                 |             |          | or catastrophic adverse effects on organizational operations,|
+|                 |             |          | organizational assets, individuals, other organizations,     |
+|                 |             |          | or the Nation.                                               |
++-----------------+------------------------+--------------------------------------------------------------+
+| High	          | 80-95	      |    8	   | The threat event could be expected to have a severe or       |
+|                 |             |          | catastrophic adverse effect on organizational operations,    |
+|                 |             |          | organizational assets, individuals, other organizations, or  |
+|                 |             |          | the Nation. A severe or catastrophic adverse effect means    |
+|                 |             |          | that, for example, the threat event might: (i) cause a severe|
+|                 |             |          | degradation in or loss of mission capability to an extent and|
+|                 |             |          | duration that the organization is not able to perform one or |
+|                 |             |          | more of its primary functions; (ii) result in major damage to|
+|                 |             |          | organizational assets; (iii) result in major financial loss; |
+|                 |             |          | or (iv) result in severe or catastrophic harm to individuals |
+|                 |             |          | involving loss of life or serious life threatening injuries. |
++-----------------+------------------------+--------------------------------------------------------------+
+| Moderate	      | 21-79	      |    5	   | The threat event could be expected to have a serious adverse |
+|                 |             |          | effect on organizational operations, organizational assets,  |
+|                 |             |          | individuals other organizations, or the Nation. A serious    |
+|                 |             |          | adverse effect means that, for example, the threat event     |
+|                 |             |          | might: (i) cause a significant degradation in mission        |
+|                 |             |          | capability to an extent and duration that the organization is|
+|                 |             |          | able to perform its primary functions, but the effectiveness |
+|                 |             |          | of the functions is significantly reduced; (ii) result in    |
+|                 |             |          | significant damage to organizational assets; (iii) result in |
+|                 |             |          | significant financial loss; or (iv) result in significant    |
+|                 |             |          | harm to individuals that does not involve loss of life or    |
+|                 |             |          | serious life threatening injuries.                           |
++-----------------+------------------------+--------------------------------------------------------------+
+| Low	            | 5-20        |	   2	   | The threat event could be expected to have a limited adverse |
+|                 |             |          | effect on organizational operations, organizational assets,  |
+|                 |             |          | individuals other organizations, or the Nation. A limited    |
+|                 |             |          | adverse effect means that, for example, the threat event     |
+|                 |             |          | might: (i) cause a degradation in mission capability to an   |
+|                 |             |          | extent and duration that the organization is able to perform |
+|                 |             |          | its primary functions, but the effectiveness of the functions|
+|                 |             |          |  is noticeably reduced; (ii) result in minor damage to       |
+|                 |             |          | organizational assets; (iii) result in minor financial loss; |
+|                 |             |          | or (iv) result in minor harm to individuals.                 |
++-----------------+------------------------+--------------------------------------------------------------+
+| Very Low	      | 0-4	        |    0	   | The threat event could be expected to have a negligible      |
+|                 |             |          | adverse effect on organizational operations, organizational  |
+|                 |             |          | assets, individuals other organizations, or the Nation.      |
++-----------------+------------------------+--------------------------------------------------------------+
+
+Table 6: Assessment Scale – Level of Risk
++-----------------+------------------------+--------------------------------------------------------------+
+| **Qualitiative**| **Semi-Quantitiative** | **Description**                                              |
+| **Values**      | **Values**             |                                                              |
++=================+========================+==============================================================+
+| Very High	      | 96-100      |  	10     | Threat event could be expected to have multiple severe or    |
+|                 |             |          | catastrophic adverse effects on organizational operations,   |
+|                 |             |          | organizational assets, individuals, other organizations, or  |
+|                 |             |          | the Nation.                                                  |
++-----------------+------------------------+--------------------------------------------------------------+
+| High	          | 80-95	      |    8	   | Threat event could be expected to have a severe or           |
+|                 |             |          | catastrophic adverse effect on organizational operations,    |
+|                 |             |          | organizational assets, individuals, other organizations, or  |
+|                 |             |          | the Nation.                                                  |
++-----------------+------------------------+--------------------------------------------------------------+
+| Moderate	      | 21-79	      |    5	   | Threat event could be expected to have a serious adverse     |
+|                 |             |          | effect on organizational operations, organizational assets,  |
+|                 |             |          | individuals, other organizations, or the Nation.             |
++-----------------+------------------------+--------------------------------------------------------------+
+| Low	            | 5-20        |	   2	   | Threat event could be expected to have a limited adverse     |
+|                 |             |          | effect on organizational operations, organizational assets,  |
+|                 |             |          | individuals, other organizations, or the Nation.             |
++-----------------+------------------------+--------------------------------------------------------------+
+| Very Low	      | 0-4	        |    0	   | Threat event could be expected to have a negligible adverse  |
+|                 |             |          | effect on organizational operations, organizational assets,  |
+|                 |             |          | individuals, other organizations, or the Nation.             |
++-----------------+------------------------+--------------------------------------------------------------+
+
+
+Table 7: Assessment Scale - Level of Risk (Combination of Likelihood and Impact)
++-------------------+---------------------------------------------------------------------+
+| **Likelihood**    | **Level of Impact**                                                 |
+| **Threat Occurs** |                                                                     |
+| **and Results in**|---------------------------------------------------------------------|
+| **Adverse Impact**| Very Low    | Very Low    | Moderate    | High        | Very High   |
++===================+=============+=============+=============+=============+=============+
+| Very High	        | Low         | Moderate    | High        | Very High   | Very High   |
++-------------------+-------------+-------------+-------------+-------------+-------------+
+| High    	        | Low         | Moderate    | Moderate    | High        | Very High   |
++-------------------+-------------+-------------+-------------+-------------+-------------+
+| Moderate          | Low         | Low         | Moderate    | Moderate    | High        |
++-------------------+-------------+-------------+-------------+-------------+-------------+
+| Low               | Very Low    | Low         | Low         | Moderate    | Moderate    |
++-------------------+-------------+-------------+-------------+-------------+-------------+
+| Very Low          | Very Low    | Very Low    | Low         | Low         | Low         |
++-------------------+-------------+-------------+-------------+-------------+-------------+
+
 
 &nbsp;
 
 b. *Risk Acceptance Criteria*
 
-    i. Risk values 0 through 2 are considered to be acceptable risks.
+    i. Risk values W through X are considered to be acceptable risks. TODO: DETERMINE W, X
 
-    i. Risk values 3 and 4 are considered to be unacceptable risks. Unacceptable risks must be treated.
+    i. Risk values Y and Z are considered to be unacceptable risks. Unacceptable risks must be treated. TODO: DETERMINE Y, Z
 
 c. *Risk Treatment*
 

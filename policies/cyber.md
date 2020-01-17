@@ -36,9 +36,9 @@ a. The purpose of the risk treatment was to define the systematic means of reduc
 
 a. All risk assessment and treatment activities were completed within the scope of the organization’s information security program.
 
-a. The risk assessment was implemented in the period from [day/month/year] to [day/month/year]. The risk treatment was implemented from [day/month/year] to [day/month/year]. Final reports were prepared during [specify period].
+a. The risk assessment was implemented in the period from 2020-01-02 to 2020-01-10. The risk treatment was implemented from 2020-01-10 to 2020-01-15. Final reports were prepared at/on 2020-01-15 through 2020-01-17.
 
-a. The risk assessment and risk treatment process was managed by [person responsible for managing the risk assessment process] with expert assistance provided by [person or company responsible for assistance].
+a. The risk assessment and risk treatment process was managed by the Head of Engineering (Asher De Vuyst) with assistance provided by Technical Advisor (Nathan Thomas).
 
 a. During the risk assessment, information was collected through questionnaires and interviews with responsible persons, namely the asset owners across organizational units.
 
@@ -66,3 +66,25 @@ a. The following documents were used or generated during the implementation of r
     i. Risk Assessment Table (Appendix A): for each combination of systems , vulnerabilities and threats, this table shows the values for consequence and likelihood, and calculates the risk.
 
     i. Risk Treatment Table (Appendix B): defines the options for risk treatment, selection of controls for each unacceptable risk, and the level of residual risk.
+
+\pagebreak
+
+# Appendix A: Risk Assessment Table
+
++-------------------+------------------+---------------------------+---------------------------+------------+
+|**Vulnerability ** | **Threat**       |  **Impact**               |  **Likelihood**           |  **Risk**  |
+|                   |                  |                           |                           |            |
++===================+==================+===========================+===========================++===========+
+| Data center or    | Hurricane        | 1 - Moderate              |                           |            |
+| service provider  |                  |                           |                           |            |
+| impacted          |                  |                           |                           |            |
+|                   |                  |                           |                           |            |
++-------------------+------------------+---------------------------+---------------------------+------------+
+
+
+
+
+
+\pagebreak
+
+# Appendix B: Risk Treatment Table
