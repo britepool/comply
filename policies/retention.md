@@ -25,7 +25,7 @@ a. This policy applies to all users of information systems within the organizati
 
 a. The organization is bound by multiple legal, regulatory and contractual obligations with regard to the data it retains. These obligations stipulate how long data can be retained, and how data must be destroyed. Examples of legal, regulatory and contractual obligations include laws and regulations in the local jurisdiction where the organization conducts business, and contracts made with employees, customers, service providers, partners and others.
 
-a. The organization may also be involved in events such as litigation or disaster recovery scenarios that require it to have access to original information in order to protect the organization’s interests or those of its employees, customers, service providers, partners and others. As a result, the organization may need to archive and store information for longer that it may be needed for day-to-day operations.
+a. The organization may also be involved in events such as litigation or disaster recovery scenarios that require it to have access to original information in order to protect the organization’s interests or those of its employees, customers, service providers, partners and others. As a result, the organization may need to archive and store information for longer than it may be needed for day-to-day operations.
 
  \pagebreak
 
@@ -77,12 +77,137 @@ a. Retention and archival periods for information that is created, processed, st
 
 # Appendix A: Retention Periods
 
-+------------------+-------------------+------------------+------------------+-----------------+
-| Information Type | Information Owner | Storage Location | Retention Period | Archival Period |
-+==================+===================+==================+==================+=================+
-|                  |                   |                  |                  |                 |
-|                  |                   |                  |                  |                 |
-+------------------+-------------------+------------------+------------------+-----------------+
-|                  |                   |                  |                  |                 |
-|                  |                   |                  |                  |                 |
-+------------------+-------------------+------------------+------------------+-----------------+
++-------------------+-----------------------+-----------+---------------+--------------+
+| Info Category     | Information Type      |  Owner    | Retention Per | Archival Per |
++===================+=======================+===========+===============+==============+
+| Business Records  | Amendments            | Legal     |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Annual Reports        | Legal     |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Board of Dir.         | Legal     |               | Permanent    |
+|                   | Elections, Minutes    |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Bylaws                | Legal     |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Capital Stock &       | Legal     |               | Permanent    |
+|                   | Bond Records          |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Charter               | Legal     |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Contracts &           | Legal     |               | Permanent    |
+|                   | Agreements            |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Copyrights            | Legal     |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Correspondence        | Legal     |               | Permanent    |
+|                   | (General)             |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Correspondence        | Legal     |               | Permanent    |
+|                   | (Legal)               |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Partnership Agreement | Legal     |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Patents               | Legal     |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Service Marks         | Legal     |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Business Records  | Trademarks            | Legal     |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Audit report(External)| Finance   |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Audit report(Internal)| Finance   |               | 3 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Balance sheets        | Finance   |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Bank records          | Finance   |               | 7 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Bills of landing      | Finance   |               | 3 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Budgets               | Finance   |               | 3 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Cash disbursement &   | Finance   |               | 3 years      |
+|                   | receipt record        |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Credit memos          | Finance   |               | 3 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Depreciation Schedule | Finance   |               | 7 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Dividend Register &   | Finance   |               | Permanent    |
+|                   | checks                |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Employee expense      | Finance   |               | 3 years      |
+|                   | reports               |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Employee payroll      | Finance   |               | 7 years      |
+|                   | records (W2, W4, etc) |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Financial Statements  | Finance   |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Freight Bills         | Finance   |               | 3 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | General Ledger        | Finance   |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Internal Reports      | Finance   |               | 3 years      |
+|                   | (sales, prod, ops)    |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Inventory Lists       | Finance   |               | 3 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Investments           | Finance   |               | Permanent    |
+|                   | (sales, purchases)    |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Profit/Loss Statements| Finance   |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Purchase and sales    | Finance   |               | 3 years      |
+|                   | contracts             |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Purchase order        | Finance   |               | 3 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Subsidiary ledgers    | Finance   |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Tax returns           | Finance   |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Vendor invoices       | Finance   |               | 7 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| Financial Records | Worthless Securites   | Finance   |               | 7 years      |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Background Checks     | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Compensation          | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Complaints &          | HR        |               | Permanent    |
+|                   | Investigations        |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Employee Benefits     | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Employee Development  | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Employment Agreement  | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Hiring Documents      | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Job Performance       | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Leave Documents       | HR        |               | Permanent    |
+|                   | (federal, state)      |           |               |              |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Medical               | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | NDA                   | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Non-compete           | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Non-disclosure        | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Termination           | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Time off & attendance | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+| HR Records        | Workers' Comp claims  | HR        |               | Permanent    |
++-------------------+-----------------------+-----------+---------------+--------------+
+
+
+
+
+
+
+
