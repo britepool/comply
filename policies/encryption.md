@@ -21,7 +21,7 @@ a. This policy defines the high level objectives and implementation instructions
 
 # Policy
 
-a. The organization must protect individual systems or information by means of minimal cryptographic controls as defined in Table 3:
+a. The organization must protect individual systems or information by means of minimal cryptographic controls as defined in Table 3 and in accordance with Annex A of FIPS PUB 140-2 or superseeding standard, which ever is most recent and strongest:
 
 \pagebreak
 

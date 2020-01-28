@@ -39,23 +39,23 @@ Security considerations for the Identity Resolution Services include transmissio
 
 ## Narratives
 
-Organizational Narrative
-Security Narrative
-System Narrative
+- Organizational Narrative
+- Security Narrative
+- System Narrative
 
 ## Policies
 
-Application Security Policy
-Datacenter Policy
-Log Management Policy
-Password Policy
-Security Incident Response Policy
-Risk Assessment Policy
+- Application Security Policy
+- Datacenter Policy
+- Log Management Policy
+- Password Policy
+- Security Incident Response Policy
+- Risk Assessment Policy
 
 ## Procedures
 
-Access Review, Onboarding, & Offboarding
-Patching
-Alert Monitoring
-Log Review
-Penetration Testing
+- Access Review, Onboarding, & Offboarding
+- Patching
+- Alert Monitoring
+- Log Review
+- Penetration Testing

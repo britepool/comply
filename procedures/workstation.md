@@ -34,7 +34,9 @@ Please respond to this message with the current inventory.
 
 The workstation inventory shall include the following fields:
     * Serial number
+    * Asset Tag
     * Custodian
+    * Department
     * Full disk encryption status
     * Malware protection status
 ```

@@ -46,7 +46,6 @@ The intent of this description is to enumerate the logical, policy, and procedur
 
 {{.Name}} has numerous scheduled procedures to monitor and tune the effectiveness of ongoing security controls, and a series of event-driven procedures to respond to security-related events.
 
-TODO: Finalize these lists
 
 ## Scheduled Security and Audit Procedures
 

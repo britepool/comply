@@ -93,21 +93,21 @@ The following represents the inventory of non-adversarial threats:
 
 ## Narratives
 
-Products and Services Narrative
-System Architecture Narrative
+- Products and Services Narrative
+- System Architecture Narrative
 
 ## Policies
 
-Encryption Policy
-Log Management Policy
-Office Security Policy
-Remote Access Policy
-Security Incident Response Policy
-Workstation Policy
+- Encryption Policy
+- Log Management Policy
+- Office Security Policy
+- Remote Access Policy
+- Security Incident Response Policy
+- Workstation Policy
 
 ## Procedures
 
-Apply OS Patches
-Review & Clear Low-Priority Alerts
-Review Access
-Review Devices & Workstations
+- Apply OS Patches
+- Review & Clear Low-Priority Alerts
+- Review Access
+- Review Devices & Workstations

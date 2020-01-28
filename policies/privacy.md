@@ -25,4 +25,16 @@ majorRevisions:
     comment: Initial document
 ---
 
-# Coming Soon
++# Coming Soon
++
++Implementation of standardised query and dialogue interfaces for data subjects for the assertion of claims is covered in our Privacy Management Policy.
++
++Traceability of activities of the responsible body to grant data subject rights are handled via the Processing Integrity Policy, Privacy Management Policy and Log Management Policy.
++
++Establishment of a Single Point of Contact (SPoC) for data subjects is through our Data Protection Officer.
++
++The operative possibility to compile, consistently correct, disable and delete all data stored on a person is covered in our Data Classification Policy, Confidentiality Policy, and Privacy Management Policy.
++
++Creation of necessary data fields, e.g. for disabled ID, notifications, consents, objections, counter-representations.
++
++The ability for a data subject to provide consent, withdrawl consent and communicate objection is provided and covered under our Data Classification Policy, Confidentiality Policy, and Privacy Management Policy.
